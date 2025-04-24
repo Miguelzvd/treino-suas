@@ -42,6 +42,7 @@ Você deve criar um projeto com as seguintes seções:
 
 Você deve seguir o layout desta imagem:
 
-![Modelo de Página]()
+![Modelo de Página](./LandingPagePC.png)
 
----
+[Link para o figma](https://www.figma.com/design/4lWUCuRPQ37aQWh2LhPTOR/WEB-SUAS?node-id=1436-11218&t=B5AcOzD3hXvnhRXl-0)
+
