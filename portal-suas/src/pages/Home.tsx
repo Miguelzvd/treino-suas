@@ -7,10 +7,11 @@ const Home = () => (
     <Box margin="0 auto">
         <Text>Teste de cores:</Text>
         <Box w={boxWidth} h={boxHeight} bg="suas.green.main"></Box>
-        <Box w={boxWidth} h={boxHeight} bg="suas.green.logotype"></Box>
         <Box w={boxWidth} h={boxHeight} bg="suas.orange"></Box>
         <Box w={boxWidth} h={boxHeight} bg="suas.yellow"></Box>
-        <Box w={boxWidth} h={boxHeight} bgGradient="linear(to-l, suas.green.gradient.darker, suas.green.gradient.lighter)"></Box> {/* Tentei usar degradê aqui, mas não funcionou. */}
+        <Text>{`Teste (gradiente):`}</Text>
+        <Box w={boxWidth} h={boxHeight} bgGradient="to-r" gradientFrom="suas.green.gradient.darker" gradientTo="suas.green.gradient.lighter" />
+        <Box w={boxWidth} h={boxHeight} bgGradient="to-r" gradientFrom="suas.orange" gradientTo="suas.yellow" />
     </Box>
 );
 
