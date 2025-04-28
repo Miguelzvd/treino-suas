@@ -1,0 +1,5 @@
+[
+    { "destinationPath": "#", "imagePath": "search_icon.png" },
+    { "destinationPath": "#", "imagePath": "contrast_icon.png" },
+    { "destinationPath": "#", "imagePath": "profile_icon.png" }
+]

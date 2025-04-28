@@ -1,0 +1,11 @@
+[
+    { "label": "COPAS", "path": "#" },
+    { "label": "VIGSA/CAD ÚNICO", "path": "#" },
+    { "label": "FEAS", "path": "#" },
+    { "label": "PSB", "path": "#" },
+    { "label": "PSE", "path": "#" },
+    { "label": "GTEP", "path": "#" },
+    { "label": "APOIO TÉCNICO", "path": "#" },
+    { "label": "CEAS", "path": "#" },
+    { "label": "CIB", "path": "#" }
+]

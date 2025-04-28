@@ -1,0 +1,27 @@
+[
+    {
+        "logoPath": "phone_logo.png",
+        "content": {
+            "name": "Ouvidoria: 84 90000-0000"
+        }
+    },
+    {
+        "logoPath": "instagram_logo.png",
+        "content": {
+            "name": "Instagram: @snas_mds",
+            "link": "http://instagram.com/snas_mds"
+        }
+    },
+    {
+        "logoPath": "email_logo.png",
+        "content": {
+            "name": "Email: vigilanciasocial@mds.gov.br"
+        }
+    },
+    {
+        "logoPath": "whatsapp_logo.png",
+        "content": {
+            "name": "Whatsapp: 84 90000-0000"
+        }
+    }
+]

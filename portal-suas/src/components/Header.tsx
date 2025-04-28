@@ -1,38 +1,22 @@
 import { Flex, HStack, Image, Link, Text, VStack } from "@chakra-ui/react";
 import { NavLink } from "react-router-dom";
 import HeaderIcon from "./HeaderIcon";
+import iconsPaths from "../assets/headerIconsPaths.json";
+import navbarPaths from "../assets/headerNavbarPaths.json";
 
 const boxWidth = "100vw";
 const paddingH = "10vw";
 
 const iconSize = 33;
 
-const navbarPaths = [
-    { label: "COPAS", path: "#" },
-    { label: "VIGSA/CAD ÚNICO", path: "#" },
-    { label: "FEAS", path: "#" },
-    { label: "PSB", path: "#" },
-    { label: "PSE", path: "#" },
-    { label: "GTEP", path: "#" },
-    { label: "APOIO TÉCNICO", path: "#" },
-    { label: "CEAS", path: "#" },
-    { label: "CIB", path: "#" },
-];
-
-const iconsPaths = [
-    { destinationPath: "#", imagePath: "search_icon.png" },
-    { destinationPath: "#", imagePath: "contrast_icon.png" },
-    { destinationPath: "#", imagePath: "profile_icon.png" },
-];
-
 const Header = () => (
     <VStack>
-        <HStack bg="white" w={boxWidth} h="100px" padding={`0 ${paddingH}`}>
+        <HStack w={boxWidth} h="100px" padding={`0 ${paddingH}`} bg="white">
             <Link href="#">
                 <Image src="SUAS_Logo.png" />
             </Link>
         </HStack>
-        <HStack bg="suas.green.main" w={boxWidth} h="69px" padding={`0 ${paddingH}`} justifyContent="space-between">
+        <HStack h="69px" padding={`0 ${paddingH}`} justifyContent="space-between" bg="suas.green.main" w={boxWidth}>
             <HStack>
                 {navbarPaths.map((item, index) => (
                     <Flex key={item.path} align="center">
