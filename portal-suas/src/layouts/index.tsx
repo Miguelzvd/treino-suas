@@ -4,10 +4,12 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 
 const Layout = () => (
-    <Box minH="100vh" display="flex" flexDirection="column" justifyContent="space-between" >
+    <Box w="100%" minH="100vh" display="flex" flexDirection="column" justifyContent="space-between">
         <Header />
         <Outlet />
-        <Footer />
+        <Box display={{ base: "none", md: "block", xl: "block" }}>
+            <Footer />
+        </Box>
     </Box>
 );
 
